@@ -62,8 +62,11 @@ The following table summarizes the results of the models using **macro-averaged 
 
 ## **Challenges Faced**
 -Feature Scaling: Some metrics are percentages (e.g., BA is between 0-0.4), while others are unbounded natural numbers (e.g., HR). We addressed this by normalizing all features to [0,1].
+
 -Small Dataset: With only ~500 players, small variations significantly impact results.
+
 -Class Imbalance: Only 32% of players are in the Hall of Fame, requiring careful model evaluation to avoid bias toward the majority class.
+
 -Potential Data Augmentation: One way to address the imbalance and small dataset size is to generate synthetic samples to improve class distribution.
 
 
